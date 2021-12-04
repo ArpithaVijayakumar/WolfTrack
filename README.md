@@ -18,6 +18,19 @@
 [![Build Status](https://app.travis-ci.com/UnnatiPrema/WolfTrackPlus.svg?branch=main)](https://app.travis-ci.com/UnnatiPrema/WolfTrackPlus)
 [![codecov](https://codecov.io/gh/ArpithaVijayakumar/WolfTrackPlus/branch/main/graph/badge.svg?token=h4F94IJMzj)](https://codecov.io/gh/ArpithaVijayakumar/WolfTrackPlus)
 
+**Version 3 Tags:** <br/>
+
+[![DOI](https://zenodo.org/badge/428888852.svg)](https://zenodo.org/badge/latestdoi/428888852)
+![Python](https://img.shields.io/badge/python-v3.8+-green.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://github.com/ramyasaimullapudi/WolfTrackPlus/workflows/Build%20Status/badge.svg)](https://github.com/ramyasaimullapudi/WolfTrackPlus/actions)
+[![Codestyle: Black](https://github.com/ramyasaimullapudi/WolfTrackPlus/workflows/Black%20Format%20Checker/badge.svg)](https://github.com/ramyasaimullapudi/WolfTrackPlus/actions)
+
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/ramyasaimullapudi/WolfTrackPlus)
+![GitHub open issues](https://img.shields.io/github/issues/ramyasaimullapudi/WolfTrackPlus)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/ramyasaimullapudi/WolfTrackPlus)
+![GitHub all downloads](https://img.shields.io/github/downloads/ramyasaimullapudi/WolfTrackPlus/total)
+
 **Goal:**<br/>
 
 One stop shop for your very own personal Job-tracker application!
@@ -73,7 +86,7 @@ https://user-images.githubusercontent.com/17769434/140458596-e99de88a-a3ca-4965-
 <p align="center">
 <img src="https://i.giphy.com/media/LMt9638dO8dftAjtco/200.webp" width="150"> <img src="https://i.giphy.com/media/KzJkzjggfGN5Py6nkT/200.webp" width="150"><img src="https://i.giphy.com/media/IdyAQJVN2kVPNUrojM/200.webp" width="150"> <img src="https://media.giphy.com/media/UWt0rhp21JgLwoeFQP/giphy.gif" width ="150"/> <img src="https://media.giphy.com/media/kH6CqYiquZawmU1HI6/giphy.gif" width ="150"/> 
 </p>
-
+---
 ## Getting started:
 
   - ### Prerequisite:
@@ -107,44 +120,65 @@ https://user-images.githubusercontent.com/17769434/140458596-e99de88a-a3ca-4965-
 
      - Site will be hosted at:
        `http://127.0.0.1:5000/`
-       
+---       
 ## Tools
 - [Preetier Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [JS-HTML-CSS Formatter](https://marketplace.visualstudio.com/items?itemName=lonefy.vscode-JS-CSS-HTML-formatter)
 - [PyLint](https://pylint.org/)
 
+---
 ## Third-Party Tools
 
 - [AWS Relational Database Service-RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html)
   -  The AWS Database is used as a primary DB by the location. The application interacts with the DB and no additional steps are required from the users. For any contributors or future developers, please mail to wolftrackse@gmail.com to get your AWS IAM user account details to connect to AWS RDS.
 - [Microsft Power BI](https://docs.microsoft.com/en-us/power-bi/)
 
+---
 ## Preview
 
 - **Sign Up Page**
   - User Interface to signup to the app
-![signup](https://user-images.githubusercontent.com/42767118/135380001-4bc1c1cf-e021-4e90-a11d-7982846f6122.png)
+![image](https://user-images.githubusercontent.com/51504486/144655593-be1df836-fe47-420c-a6ce-112f31cddd2a.png)
 
 - **Login Page**
   - User Interface to login to the Wolftrack app. After successful login, user will be redirected to the Dashboard page
-![login](https://user-images.githubusercontent.com/42767118/135379994-8db87d4f-ef98-4005-97ea-b6d56cd655ec.png)
+![image](https://user-images.githubusercontent.com/51504486/144655666-a5d8eae0-efb2-4fd4-94da-b7dae79f588e.png)
 
 - **Dashboard** 
-  - The 4 section (Wishlist, Applied, In-process, Offers) categorizes all the applications based on the current status and shows 3 applications on the home page. The tool allows the user to create new applications by clicking on Add New button on each section while the 'View All' allows the user to list all the applications.
-  - The left-most section of the dashboard shows the User details.
+  - The 4 section (Wishlist, Applied, In-process, Offers) categorizes all the applications based on the current status and shows 3 applications on the home page. The tool allows the user to create new applications by clicking on 'Add New' button while the 'View More' button allows the user to list applications in each section. For each section the user has three options:
+    1. Change the status of the application 
+    2. Edit the details of any application
+    3. Delete the application
+    
+    ![image](https://user-images.githubusercontent.com/51504486/144657864-12892f0c-e811-470e-81a8-ed13799b9808.png)
+
+  - The left-most section of the dashboard shows the User details. The user also has the option to edit his/her profile.
+
   - Upcoming Activities - The upcoming activities shows the top 5 activities nearing the deadline. The activities are picked up from the applications and the company name and the due date is displayed on this section. 
   - Location- The map shows the various office locations for the applied companies. The thought behind is to better plan the commute and residence based on the location distance
-![Dashboard](https://user-images.githubusercontent.com/42767118/135379980-43a32373-e11d-4ed4-baa3-9c77449acfe9.png)
-
+  - ![image](https://user-images.githubusercontent.com/51504486/144658182-1cb65338-09dd-4698-acde-4b5651ca5022.png)
+ 
+- **Edit User Profile** 
+  - User has the option to edit profile
+    ![image](https://user-images.githubusercontent.com/51504486/144659025-855057d1-2d20-4c89-b85c-96f4e952e86e.png)
+    
 - **Add New Application** 
   - User interface for adding a new application to the portal
-![Add_new_application](https://user-images.githubusercontent.com/42767118/135379982-fecc15f8-a121-48f7-a3ed-62337a9747e4.png)
+    ![image](https://user-images.githubusercontent.com/51504486/144658254-bebf38e8-167e-4e15-927e-96d94cb6732a.png)
 
-- **View List of Applications**
-  - User interface to view all the applications 
-![list2](https://user-images.githubusercontent.com/42767118/135383447-5ac3e6cc-6fef-4b9e-a233-bf5bfc1075bf.png)
-
-
+- **Edit Existing Application**
+  - The user has the option to edit the details of each applcation
+    ![image](https://user-images.githubusercontent.com/51504486/144658556-280c962d-5882-400f-8143-86e453a53f3c.png)
+    
+- **Delete Application**
+  - The user has the option to delete an applcation
+    ![image](https://user-images.githubusercontent.com/51504486/144658720-bb9461f1-6ce1-4de3-9eeb-302812a10490.png)
+    
+- **Change status of an application**
+  - The user has the option to change the status of an applcation
+    ![image](https://user-images.githubusercontent.com/51504486/144658895-e46c0aa6-0e1a-41ac-b349-8f4e2560d282.png)
+    
+---
 ## Chat Channel
 
 <code><a href="https://discord.gg/wRZ56mvA" target="_blank"><img height="100" width="250" src="https://user-images.githubusercontent.com/42767118/135394825-26dee6db-7a64-4e3f-902a-1e35abd4cf0c.png"></a></code>
@@ -171,7 +205,7 @@ https://user-images.githubusercontent.com/17769434/140458596-e99de88a-a3ca-4965-
 - [x] Made UI to be more reactive by enforcing the user to enter required fields
 - [x] Create APIs for relevant functionalities
 
-### Future Enhancements:
+### Phase3:
 
 - [ ] Embedding calendar and highligting important dates
 - [ ] Send remainder mails for deadlines
@@ -182,32 +216,16 @@ https://user-images.githubusercontent.com/17769434/140458596-e99de88a-a3ca-4965-
 - [ ] Enabling Desktop Notifications
 
 ## Contributions to the Project
-Please refer to the [Contributing.md](https://github.com/Himanshuu-Gupta/WolfTrack/blob/main/CONTRIBUTING.md) if you want to contrbute to the Wolftrack source code. Follow all the guidelines mentioned and raise a pull request for the developers to review before the code goes to the main source code.
-
-## Contributors
-<center>
-  <table>
-    <tr>
-        <td align="center"><a href="https://github.com/apurva-s"><img src="https://avatars.githubusercontent.com/u/32777604?v=4" width="100px;" alt=""/><br /><sub><b>Apurva Sonavane</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/ArpithaVijayakumar/"><img src="https://avatars.githubusercontent.com/u/45428701?s=400&u=15851f4800b87dcd2b8cbf9ff0a040bc8987e7c0&v=4" width="100px;" alt=""/><br /><sub><b>Arpitha Vijayakumar</b></sub></a></td>
-    <td align="center"><a href="https://github.com/ivbhatt"><img src="https://avatars.githubusercontent.com/u/20361038?v=4" width="100px;" alt=""/><br /><sub><b>Ishan Bhatt</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/Krishika510"><img src="https://avatars.githubusercontent.com/u/17769434?v=4" width="100px;" alt=""/><br /><sub><b>Krishika Shivnani</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/UnnatiPrema/"><img src="https://avatars.githubusercontent.com/u/24750759?s=400&u=ab27d86edc758ff53bd68808430d8e5bf172e34a&v=4" width="100px;" alt=""/><br /><sub><b>Unnati Nadupalli</b></sub></a><br /></td>
-    </tr>
-  </table>
-</center>
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/surajdm123/"><img src="https://avatars.githubusercontent.com/u/42767118?v=4" width="100px;" alt=""/><br /><sub><b>Suraj Devatha</b></sub></a></td>
-    <td align="center"><a href="https://github.com/Sneha-at"><img src="https://avatars.githubusercontent.com/u/81721081?v=4" width="100px;" alt=""/><br /><sub><b>Sneha Aradhey</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/Ashnayak"><img src="https://avatars.githubusercontent.com/u/18304940?v=4" width="100px;" alt=""/><br /><sub><b>Ashwini Nayak</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/Himanshuu-Gupta"><img src="https://avatars.githubusercontent.com/u/15701338?v=4" width="100px;" alt=""/><br /><sub><b>Himanshuu Gupta</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/ShreyanshPrajapati/"><img src="https://avatars.githubusercontent.com/u/13018358?v=4" width="100px;" alt=""/><br /><sub><b>Shreyansh Prajapati</b></sub></a><br /></td>
-  </tr>
-</table>
+Please refer to the [Contributing.md](https://github.com/ramyasaimullapudi/WolfTrackPlus/blob/main/CONTRIBUTING.md) if you want to contrbute to the Wolftrack source code. Follow all the guidelines mentioned and raise a pull request for the developers to review before the code goes to the main source code.
 
 
 ## Contact 
-In case of any issues, please e-mail your queries to wolftrackse@gmail.com or raise an issue on this repository
+In case of any issues, please e-mail your queries to ramyasaimullapudi@gmail.com or raise an issue on this repository
 
+## Contributors:
+Ramya Sai Mullapudi
+Rohan Prabhune
+Krishna Saurabh Vankkad
+Arjun Madhusudan
+Lakshmi Swetha Gavini
 
